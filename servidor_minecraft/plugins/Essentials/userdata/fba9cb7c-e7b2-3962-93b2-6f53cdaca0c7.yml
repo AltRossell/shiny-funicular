@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1752208060269
   login: 1752207612268
 money: '0'
 last-account-name: AltRossell
+logoutlocation:
+  world: 749eb80c-a773-4b96-bc82-940f76bb6462
+  world-name: world
+  x: -23.53671478783718
+  y: 80.0
+  z: 128.7350369419888
+  yaw: -82.20006561279297
+  pitch: -90.0

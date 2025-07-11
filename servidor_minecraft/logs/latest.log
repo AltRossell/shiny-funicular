@@ -532,3 +532,7 @@
 [04:20:12] [Server thread/INFO]: AltRossell joined the game
 [04:20:12] [Server thread/INFO]: AltRossell[/10.147.18.205:58516] logged in with entity id 135 at ([world]-37.5, 71.0, 29.5)
 [04:20:12] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[04:25:18] [Server thread/INFO]: AltRossell issued server command: /time 1
+[04:25:18] [Server thread/INFO]: [Essentials] AltRossell was denied access to command.
+[04:27:40] [Server thread/INFO]: AltRossell lost connection: Disconnected
+[04:27:40] [Server thread/INFO]: AltRossell left the game
