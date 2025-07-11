@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.147.18.205
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752198674604
+  login: 1752198678662
+money: '0'
+last-account-name: AltRossell
+logoutlocation:
+  world: e3a08402-e1bc-4d6b-983a-f5c52a506854
+  world-name: world
+  x: 9.371895464752292
+  y: 78.0
+  z: 120.99314915761408
+  yaw: -121.949951171875
+  pitch: 23.2499942779541
