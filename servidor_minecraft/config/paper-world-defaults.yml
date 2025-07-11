@@ -178,9 +178,7 @@ entities:
     filtered-entity-tag-nbt-paths:
     - Pos
     - Motion
-    - SleepingX
-    - SleepingY
-    - SleepingZ
+    - sleeping_pos
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
     non-player-arrow-despawn-rate: default

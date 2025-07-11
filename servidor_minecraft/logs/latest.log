@@ -1,61 +1,230 @@
-[03:02:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[03:02:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) for Minecraft 1.21.7
-[03:02:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:02:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
-[03:02:58] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[04:12:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[04:12:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[04:12:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:12:45] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[04:12:56] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 10755ms.
+[04:12:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/calcmod-1.4.2+paper.1.21.5.jar'...
+[04:12:56] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/autosort-0.1.8+1.21.5-paper.jar'...
+[04:12:56] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlugManX-2.4.1.jar'...
+[04:12:56] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/instantrestock_2.5.2.jar'...
+[04:12:56] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/autosort-0.1.8+1.21.5-paper.jar' in 374ms.
+[04:12:56] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ValhallaMMO_1.5.5.jar'...
+[04:12:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/calcmod-1.4.2+paper.1.21.5.jar' in 651ms.
+[04:12:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar'...
+[04:12:57] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlugManX-2.4.1.jar' in 1534ms.
+[04:12:57] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-selection-viewer-1.5.jar'...
+[04:12:57] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-selection-viewer-1.5.jar' in 126ms.
+[04:12:57] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/UltraSetHome-1.7.9.jar'...
+[04:12:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar' in 1047ms.
+[04:12:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/TeaksTweaks-v2.0.10-mc1.21.5.jar'...
+[04:12:58] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/instantrestock_2.5.2.jar' in 1750ms.
+[04:12:58] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[04:12:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TeaksTweaks-v2.0.10-mc1.21.5.jar' in 657ms.
+[04:12:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ValhallaMMO_1.5.5.jar' in 2435ms.
+[04:12:59] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/UltraSetHome-1.7.9.jar' in 1233ms.
+[04:13:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 3011ms.
+[04:13:02] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.pom
+[04:13:02] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.9.0/kotlinx-serialization-json-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.9.0/kotlinx-serialization-bom-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.9.0/kotlinx-serialization-json-jvm-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.9.0/kotlinx-serialization-core-jvm-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.2/kotlinx-coroutines-core-1.10.2.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.10.2/kotlinx-coroutines-bom-1.10.2.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor/1.9.0/kotlinx-serialization-cbor-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor-jvm/1.9.0/kotlinx-serialization-cbor-jvm-1.9.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.pom
+[04:13:03] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.pom
+[04:13:04] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.pom
+[04:13:04] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.pom
+[04:13:04] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit/10.1.0/commandapi-bukkit-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit/10.1.0/commandapi-bukkit-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-bukkit/10.1.0/commandapi-bukkit-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-bukkit/10.1.0/commandapi-bukkit-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-bukkit/10.1.0/commandapi-bukkit-10.1.0.pom
+[04:13:05] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-platforms/10.1.0/commandapi-platforms-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-platforms/10.1.0/commandapi-platforms-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-platforms/10.1.0/commandapi-platforms-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-platforms/10.1.0/commandapi-platforms-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-platforms/10.1.0/commandapi-platforms-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi/10.1.0/commandapi-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi/10.1.0/commandapi-10.1.0.pom
+[04:13:06] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi/10.1.0/commandapi-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi/10.1.0/commandapi-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi/10.1.0/commandapi-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.pom
+[04:13:07] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.pom
+[04:13:08] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-kotlin/10.1.0/commandapi-kotlin-10.1.0.pom
+[04:13:08] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-kotlin/10.1.0/commandapi-kotlin-10.1.0.pom
+[04:13:08] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-kotlin/10.1.0/commandapi-kotlin-10.1.0.pom
+[04:13:08] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-kotlin/10.1.0/commandapi-kotlin-10.1.0.pom
+[04:13:08] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-kotlin/10.1.0/commandapi-kotlin-10.1.0.pom
+[04:13:09] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.pom
+[04:13:09] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.pom
+[04:13:09] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.pom
+[04:13:09] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.pom
+[04:13:09] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.5.1/kotlinx-serialization-json-jvm-1.5.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.5.1/kotlinx-serialization-bom-1.5.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.21/kotlin-stdlib-common-1.8.21.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.5.1/kotlinx-serialization-core-jvm-1.5.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.1/kotlinx-coroutines-core-jvm-1.7.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.1/kotlinx-coroutines-bom-1.7.1.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.20/kotlin-stdlib-common-1.8.20.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.20/kotlin-stdlib-jdk8-1.8.20.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.20/kotlin-stdlib-1.8.20.pom
+[04:13:10] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.20/kotlin-stdlib-jdk7-1.8.20.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.pom
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.9.0/kotlinx-serialization-json-1.9.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.9.0/kotlinx-serialization-json-jvm-1.9.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.9.0/kotlinx-serialization-core-jvm-1.9.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.2/kotlinx-coroutines-core-1.10.2.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor/1.9.0/kotlinx-serialization-cbor-1.9.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor-jvm/1.9.0/kotlinx-serialization-cbor-jvm-1.9.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-1-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-1-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.jar
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-papermc.io-2-0/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-papermc.io-2-1/INFO]: [MavenLibraryResolver] Downloading https://papermc.io/repo/repository/maven-public/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.jar
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-s01.oss.sonatype.org-3-0/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.jar
+[04:13:11] [BasicRepositoryConnector-s01.oss.sonatype.org-3-1/INFO]: [MavenLibraryResolver] Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.jar
+[04:13:11] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-bukkit-shade-mojang-mapped/10.1.0/commandapi-bukkit-shade-mojang-mapped-10.1.0.jar
+[04:13:12] [BasicRepositoryConnector-repo.papermc.io-4-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-bukkit-kotlin/10.1.0/commandapi-bukkit-kotlin-10.1.0.jar
+[04:13:12] [BasicRepositoryConnector-repo.papermc.io-4-1/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/dev/jorel/commandapi-core-kotlin/10.1.0/commandapi-core-kotlin-10.1.0.jar
+[04:13:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
+[04:13:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - HarderWardens (1.1.3), Veinminer (2.4.8)
-[03:02:58] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+[04:13:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
  - AutoSort (0.1.8), CalcMod (1.4.2+paper.1.21.5), Essentials (2.21.2-dev+27-cc25a79), EssentialsChat (2.21.2-dev+27-cc25a79), FastAsyncWorldEdit (2.12.3), InstantRestock (2.5.2), PlaceholderAPI (2.11.6), PlugManX (2.4.1), ProtocolLib (5.3.0), SkinsRestorer (15.7.6), TeaksTweaks (2.0.10-mc1.21.5), UltraSetHome (1.7.9), ValhallaMMO (1.5.5), worldedit-selection-viewer (1.5)
-[03:03:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:03:08] [ServerMain/INFO]: Loaded 1407 recipes
-[03:03:08] [ServerMain/INFO]: Loaded 1520 advancements
-[03:03:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:03:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 918.4ms
-[03:03:09] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[03:03:09] [Server thread/INFO]: Loading properties
-[03:03:09] [Server thread/INFO]: This server is running Paper version 1.21.7-17-main@b4466ec (2025-07-06T18:59:07Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[03:03:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:03:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:03:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:03:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:03:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:03:10] [Server thread/INFO]: Default game type: SURVIVAL
-[03:03:10] [Server thread/INFO]: Generating keypair
-[03:03:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:03:10] [Server thread/INFO]: Using epoll channel type
-[03:03:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:03:10] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loading 4 libraries... please wait
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/junit/junit/4.10/junit-4.10.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar
-[03:03:12] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar
-[03:03:12] [Server thread/INFO]: [UltraSetHome] Loading server plugin UltraSetHome v1.7.9
-[03:03:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+27-cc25a79
-[03:03:12] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[03:03:12] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
-[03:03:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5b7548c4]
-[03:03:12] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[03:03:12] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.7) has not yet been tested! Proceed with caution.
-[03:03:12] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+[04:13:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:13:21] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[04:13:21] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[04:13:22] [ServerMain/INFO]: No existing world data, creating new world
+[04:13:23] [ServerMain/INFO]: Loaded 1373 recipes
+[04:13:23] [ServerMain/INFO]: Loaded 1484 advancements
+[04:13:24] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[04:13:24] [Server thread/INFO]: Loading properties
+[04:13:24] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[04:13:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:13:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:13:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:13:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:13:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:13:25] [Server thread/INFO]: Default game type: SURVIVAL
+[04:13:25] [Server thread/INFO]: Generating keypair
+[04:13:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:13:25] [Server thread/INFO]: Using epoll channel type
+[04:13:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:13:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loading 4 libraries... please wait
+[04:13:28] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.pom
+[04:13:28] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.8.0/okio-2.8.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.0/kotlin-stdlib-1.4.0.pom
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.pom
+[04:13:29] [Server thread/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact org.jetbrains:annotations:pom:13.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases+snapshots)]
+[04:13:29] [Server thread/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact org.jetbrains:annotations:pom:13.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases+snapshots)]
+[04:13:29] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.pom
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.10/kotlin-stdlib-common-1.4.10.pom
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar
+[04:13:30] [BasicRepositoryConnector-repo.maven.apache.org-5-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/junit/junit/4.10/junit-4.10.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar
+[04:13:30] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/shiny-funicular/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar
+[04:13:30] [Server thread/INFO]: [UltraSetHome] Loading server plugin UltraSetHome v1.7.9
+[04:13:30] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+27-cc25a79
+[04:13:30] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[04:13:30] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
+[04:13:30] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
+[04:13:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@775770fb]
+[04:13:30] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[04:13:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.5) has not yet been tested! Proceed with caution.
+[04:13:30] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
   If this problem hasn't already been reported, please open a ticket
   at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
   Stack Trace:
@@ -74,41 +243,41 @@
   	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
   	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
   	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39)
-  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:566)
+  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:567)
   	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:235)
-  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
-  	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1161)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
   	at java.base/java.lang.Thread.run(Thread.java:1583)
   Dump:
   Parameters: 
     [NULL]
   Sender:
-    com.comphenix.protocol.ProtocolLib@58ef8d64[
+    com.comphenix.protocol.ProtocolLib@fb15b6f[
       statistics=<null>
       packetTask=<null>
       tickCounter=0
       configExpectedMod=-1
-      updater=com.comphenix.protocol.updater.SpigotUpdater@53e6469a
+      updater=com.comphenix.protocol.updater.SpigotUpdater@720105c5
       redirectHandler=<null>
-      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@5ba378c0
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@7aab74f2
       commandProtocol=<null>
       commandPacket=<null>
       commandFilter=<null>
       packetLogging=<null>
       skipDisable=false
       isEnabled=false
-      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@7a1b5ad9
-      server=CraftServer{serverName=Paper,serverVersion=1.21.7-17-b4466ec,minecraftVersion=1.21.7}
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@3e143122
+      server=CraftServer{serverName=Paper,serverVersion=1.21.5-114-a1b3058,minecraftVersion=1.21.5}
       file=plugins/ProtocolLib.jar
-      description=org.bukkit.plugin.PluginDescriptionFile@6548144a
-      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@6548144a
+      description=org.bukkit.plugin.PluginDescriptionFile@54d82c46
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@54d82c46
       dataFolder=plugins/ProtocolLib
       classLoader=PluginClassLoader{plugin=ProtocolLib v5.3.0, pluginEnabled=false, url=plugins/ProtocolLib.jar}
       naggable=true
       newConfig=YamlConfiguration[path='', root='YamlConfiguration']
       configFile=plugins/ProtocolLib/config.yml
-      logger=com.destroystokyo.paper.utils.PaperPluginLogger@454623b8
-      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@6009951e
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@240f300b
+      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@31a082d0
       allowsLifecycleRegistration=true
       isBeingEnabled=false
     ]
@@ -117,29 +286,32 @@
   Java Version:
     21.0.7
   Server:
-    1.21.7-17-b4466ec (MC: 1.21.7)
+    1.21.5-114-a1b3058 (MC: 1.21.5)
 
-[03:03:12] [Server thread/INFO]: [HarderWardens] Loading server plugin HarderWardens v1.1.3
-[03:03:12] [Server thread/INFO]: [CalcMod] Loading server plugin CalcMod v1.4.2+paper.1.21.5
-[03:03:12] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+27-cc25a79
-[03:03:12] [Server thread/INFO]: [AutoSort] Loading server plugin AutoSort v0.1.8
-[03:03:12] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[03:03:12] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.2
-[03:03:12] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.4.8
-[03:03:12] [Server thread/INFO]: [Veinminer] Detected platform: Paper
-[03:03:13] [Server thread/INFO]: [ValhallaMMO] Loading server plugin ValhallaMMO v1.5.5
-[03:03:13] [Server thread/INFO]: [ValhallaMMO] Loading ValhallaMMO config with language en-us selected
-[03:03:13] [Server thread/INFO]: [ValhallaMMO] Initialized plugin hook with PlaceholderAPI
-[03:03:13] [Server thread/INFO]: [worldedit-selection-viewer] Loading server plugin worldedit-selection-viewer v1.5
-[03:03:13] [Server thread/INFO]: [TeaksTweaks] Loading server plugin TeaksTweaks v2.0.10-mc1.21.5
-[03:03:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.6
-[03:03:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:03:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
-[03:03:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[03:03:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[03:03:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:03:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:03:14] [Server thread/WARN]: 
+[04:13:30] [Server thread/INFO]: [HarderWardens] Loading server plugin HarderWardens v1.1.3
+[04:13:30] [Server thread/INFO]: [CalcMod] Loading server plugin CalcMod v1.4.2+paper.1.21.5
+[04:13:30] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+27-cc25a79
+[04:13:30] [Server thread/INFO]: [AutoSort] Loading server plugin AutoSort v0.1.8
+[04:13:30] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[04:13:30] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.2
+[04:13:30] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.4.8
+[04:13:30] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[04:13:31] [Server thread/INFO]: [Veinminer] Created blocks.json default config
+[04:13:31] [Server thread/INFO]: [Veinminer] Created settings.json default config
+[04:13:31] [Server thread/INFO]: [Veinminer] Created groups.json default config
+[04:13:31] [Server thread/INFO]: [ValhallaMMO] Loading server plugin ValhallaMMO v1.5.5
+[04:13:32] [Server thread/INFO]: [ValhallaMMO] Loading ValhallaMMO config with language en-us selected
+[04:13:32] [Server thread/INFO]: [ValhallaMMO] Initialized plugin hook with PlaceholderAPI
+[04:13:32] [Server thread/INFO]: [worldedit-selection-viewer] Loading server plugin worldedit-selection-viewer v1.5
+[04:13:32] [Server thread/INFO]: [TeaksTweaks] Loading server plugin TeaksTweaks v2.0.10-mc1.21.5
+[04:13:32] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.6
+[04:13:32] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
+[04:13:32] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[04:13:32] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[04:13:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:13:32] [Server thread/INFO]: WEPIF: Updated config file
+[04:13:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[04:13:33] [Server thread/WARN]: 
 **********************************************
 ** This FastAsyncWorldEdit version does not fully support your version of Bukkit.
 ** You can fix this by:
@@ -151,243 +323,212 @@
 ** and block property-related functions.
 **********************************************
 
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:grass. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=0]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=1]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=2]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=3]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=4]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=5]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=6]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=7]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=8]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=9]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=10]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=11]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=12]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=13]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=14]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=15]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=north]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=south]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=west]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=east]. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown block: minecraft:grass_path. Neither the DataFixer nor defaulting worked to recognize this block.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:grass. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:grass_path. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:sign. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:rose_red. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:cactus_green. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/ERROR]: Unknown item: minecraft:dandelion_yellow. Neither the DataFixer nor defaulting worked to recognize this item.
-[03:03:15] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[03:03:15] [Server thread/ERROR]: ******************************************************
-[03:03:15] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
-[03:03:15] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
-[03:03:15] [Server thread/ERROR]: ******************************************************
-[03:03:15] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[03:03:15] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[03:03:15] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[03:03:15] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[03:03:15] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[03:03:15] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[03:03:15] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[03:03:15] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[03:03:16] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.4.8
-[03:03:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.6
-[03:03:16] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[03:03:18] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.7.
-[03:03:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:03:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.6]
-[03:03:18] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[03:03:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:03:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:03:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:03:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:03:18] [Server thread/INFO]: Preparing level "world"
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.6
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 9abea93
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:03:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:03:19] [Server thread/WARN]: Failed to load biomes via adapter (not present). Will load via bukkit
-[03:03:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:03:20] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:21] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:21] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:21] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:22] [Server thread/INFO]: Time elapsed: 1895 ms
-[03:03:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:03:22] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:22] [Server thread/INFO]: Time elapsed: 293 ms
-[03:03:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:03:22] [Server thread/INFO]: Preparing spawn area: 0%
-[03:03:22] [Server thread/INFO]: Time elapsed: 221 ms
-[03:03:22] [Server thread/INFO]: [UltraSetHome] Enabling UltraSetHome v1.7.9
-[03:03:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+27-cc25a79
-[03:03:24] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[03:03:24] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[03:03:24] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[03:03:24] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[03:03:24] [Server thread/INFO]: [Essentials] Converted 0/1
-[03:03:24] [Server thread/INFO]: [Essentials] Ban format update complete.
-[03:03:24] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[03:03:24] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[03:03:24] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[03:03:24] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[03:03:24] [Server thread/INFO]: [Essentials] Done converting mail list.
-[03:03:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[03:03:24] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[03:03:24] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[03:03:24] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[03:03:24] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[03:03:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[03:03:24] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[03:03:24] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[03:03:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[03:03:24] [Server thread/INFO]: [Essentials] 
-[03:03:24] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[03:03:24] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[03:03:24] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[03:03:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[03:03:24] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[03:03:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[03:03:24] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[03:03:24] [Server thread/INFO]: [Essentials] 
-[03:03:24] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[03:03:24] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[03:03:24] [Server thread/INFO]: [Essentials] 
-[03:03:24] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[03:03:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[03:03:24] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[03:03:24] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[03:03:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[03:03:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[03:03:24] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[03:03:24] [Server thread/INFO]: [Essentials] Using locale en
-[03:03:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[03:03:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[03:03:25] [Server thread/INFO]: [UltraSetHome] Essentials hooked successfully.
-[03:03:25] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[03:03:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[03:03:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[03:03:26] [Server thread/INFO]: [HarderWardens] Enabling HarderWardens v1.1.3
-[03:03:26] [Server thread/INFO]: HarderWardens >> Plugin has been enabled!
-[03:03:26] [Server thread/INFO]: [CalcMod] Enabling CalcMod v1.4.2+paper.1.21.5
-[03:03:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+27-cc25a79
-[03:03:26] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[03:03:26] [Server thread/INFO]: [AutoSort] Enabling AutoSort v0.1.8
-[03:03:26] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.2
-[03:03:26] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
-[03:03:26] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO v1.5.5
-[03:03:26] [Server thread/INFO]: [ValhallaMMO] NMS version NMS_v1_21_R5 registered!
-[03:03:26] [Server thread/INFO]: [ValhallaMMO] Successfully hooked to paper version Paper_v1_21_R5
-[03:03:26] [Server thread/INFO]: [ValhallaMMO] Resource pack hosting not established! Use /val resourcepack setup if you want ValhallaMMO's resource pack hosted for you
-[03:03:26] [Server thread/WARN]: [ValhallaMMO] No valid host for the resource pack configured! You may ignore this warning if you've not set up the resource pack.
-[03:03:27] [Server thread/INFO]: [ValhallaMMO] Database connection failed, attempting SQLite for profile persistence
-[03:03:27] [Server thread/INFO]: [ValhallaMMO] MiniMessage support initialized
-[03:03:27] [Server thread/INFO]: [ValhallaMMO] SQLite connection created! Deleting this file will reset everyone's progress, so back this file up or ignore it in case you want to delete/reset the configs.
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading crafting grid recipes from plugins/ValhallaMMO/recipes/grid_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading smithing recipes from plugins/ValhallaMMO/recipes/smithing_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading immersive recipes from plugins/ValhallaMMO/recipes/immersive_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading cauldron recipes from plugins/ValhallaMMO/recipes/cauldron_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading cooking recipes from plugins/ValhallaMMO/recipes/cooking_recipes.json
-[03:03:32] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes_1_20_6+.json
-[03:03:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: valhallammo [1.5.5]
-[03:03:32] [Server thread/INFO]: [worldedit-selection-viewer] Enabling worldedit-selection-viewer v1.5
-[03:03:32] [Server thread/INFO]: [TeaksTweaks] Enabling TeaksTweaks v2.0.10-mc1.21.5
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Updated Plugin Config
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Loaded language file: en.json
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /teakstweaks
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /mechanics
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /packlist
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO]  
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks v2.0.10-mc1.21.5 has started!
-[03:03:33] [Server thread/INFO]: [TeaksTweaks] [INFO]  
-[03:03:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: teakstweaks [2.0.10-mc1.21.5]
-[03:03:34] [Server thread/INFO]: [spark] Starting background profiler...
-[03:03:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[03:03:35] [Server thread/INFO]: Done preparing level "world" (16.658s)
-[03:03:35] [Server thread/INFO]: Running delayed init tasks
-[03:03:35] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[03:03:35] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[03:03:35] [Server thread/INFO]: Done (41.679s)! For help, type "help"
-[03:03:35] [Server thread/INFO]: [UltraSetHome] You are using the latest version of UltraSetHome.
-[03:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4587ms or 91 ticks behind
-[03:04:14] [User Authenticator #0/INFO]: UUID of player AltRossell is fba9cb7c-e7b2-3962-93b2-6f53cdaca0c7
-[03:04:14] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
-[03:04:18] [Server thread/INFO]: AltRossell joined the game
-[03:04:18] [Server thread/INFO]: AltRossell[/10.147.18.205:54703] logged in with entity id 77 at ([world]-32.6225073282453, 67.0, 133.52811618625992)
-[03:08:21] [Server thread/ERROR]: [com.fastasyncworldedit.bukkit.FaweBukkit] Persistent Brushes Failed
-java.lang.NullPointerException: null
-	at com.google.gson.internal.$Gson$Preconditions.checkNotNull($Gson$Preconditions.java:47) ~[gson-2.11.0.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.fastasyncworldedit.bukkit.util.ItemUtil.<init>(ItemUtil.java:32) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.fastasyncworldedit.bukkit.FaweBukkit.getItemUtil(FaweBukkit.java:146) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.fastasyncworldedit.bukkit.util.BukkitItemStack.getNativeItem(BukkitItemStack.java:37) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1247) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1240) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:478) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:753) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at FastAsyncWorldEdit-Paper-2.12.3.jar/com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:165) ~[FastAsyncWorldEdit-Paper-2.12.3.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:526) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:487) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:483) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:479) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2590) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-17-b4466ec]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[03:10:59] [Server thread/INFO]: AltRossell issued server command: /time set 1
+[04:13:33] [Server thread/ERROR]: Unknown block: minecraft:grass. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=0]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=1]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=2]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=3]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=4]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=5]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=6]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=7]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=8]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=9]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=10]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=11]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=12]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=13]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=14]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:sign[rotation=15]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=north]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=south]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=west]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:wall_sign[facing=east]. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown block: minecraft:grass_path. Neither the DataFixer nor defaulting worked to recognize this block.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:grass. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:grass_path. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:sign. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:rose_red. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:cactus_green. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/ERROR]: Unknown item: minecraft:dandelion_yellow. Neither the DataFixer nor defaulting worked to recognize this item.
+[04:13:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[04:13:34] [Server thread/ERROR]: ******************************************************
+[04:13:34] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[04:13:34] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[04:13:34] [Server thread/ERROR]: ******************************************************
+[04:13:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[04:13:34] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[04:13:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[04:13:34] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[04:13:34] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[04:13:34] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[04:13:34] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[04:13:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[04:13:34] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.4.8
+[04:13:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.6
+[04:13:35] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[04:13:36] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[04:13:36] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:13:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.6]
+[04:13:36] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[04:13:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:13:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:13:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:13:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:13:36] [Server thread/INFO]: Preparing level "world"
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.6
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 9abea93
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:13:37] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:13:37] [Server thread/WARN]: Failed to load biomes via adapter (not present). Will load via bukkit
+[04:13:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:13:54] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:55] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:55] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:56] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:56] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:57] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:57] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:58] [Server thread/INFO]: Preparing spawn area: 2%
+[04:13:58] [Server thread/INFO]: Preparing spawn area: 6%
+[04:13:59] [Server thread/INFO]: Preparing spawn area: 8%
+[04:13:59] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:00] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:00] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:03] [Server thread/INFO]: Preparing spawn area: 30%
+[04:14:04] [Server thread/INFO]: Preparing spawn area: 44%
+[04:14:04] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:05] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:05] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:06] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:06] [Server thread/INFO]: Preparing spawn area: 59%
+[04:14:07] [Server thread/INFO]: Preparing spawn area: 71%
+[04:14:07] [Server thread/INFO]: Time elapsed: 12636 ms
+[04:14:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:14:07] [Server thread/INFO]: Preparing spawn area: 2%
+[04:14:08] [Server thread/INFO]: Preparing spawn area: 2%
+[04:14:08] [Server thread/INFO]: Preparing spawn area: 2%
+[04:14:09] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:09] [Server thread/INFO]: Preparing spawn area: 24%
+[04:14:10] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:10] [Server thread/INFO]: Preparing spawn area: 51%
+[04:14:10] [Server thread/INFO]: Time elapsed: 3204 ms
+[04:14:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:14:10] [Server thread/INFO]: Preparing spawn area: 2%
+[04:14:11] [Server thread/INFO]: Preparing spawn area: 18%
+[04:14:11] [Server thread/INFO]: Time elapsed: 920 ms
+[04:14:11] [Server thread/INFO]: [UltraSetHome] Enabling UltraSetHome v1.7.9
+[04:14:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+27-cc25a79
+[04:14:12] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[04:14:13] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:14:13] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[04:14:13] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[04:14:13] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[04:14:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:14:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:14:13] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[04:14:13] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[04:14:13] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[04:14:13] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[04:14:13] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[04:14:13] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[04:14:13] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[04:14:13] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[04:14:13] [Server thread/INFO]: [Essentials] Using locale en
+[04:14:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:14:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:14:14] [Server thread/INFO]: [UltraSetHome] Essentials hooked successfully.
+[04:14:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:14:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[04:14:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[04:14:14] [Server thread/INFO]: [HarderWardens] Enabling HarderWardens v1.1.3
+[04:14:14] [Server thread/INFO]: HarderWardens >> Plugin has been enabled!
+[04:14:14] [Server thread/INFO]: [CalcMod] Enabling CalcMod v1.4.2+paper.1.21.5
+[04:14:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+27-cc25a79
+[04:14:14] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[04:14:14] [Server thread/INFO]: [AutoSort] Enabling AutoSort v0.1.8
+[04:14:14] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.2
+[04:14:15] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] Enabling ValhallaMMO v1.5.5
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] NMS version NMS_v1_21_R4 registered!
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] Successfully hooked to paper version Paper_v1_21_R4
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] Resource pack hosting not established! Use /val resourcepack setup if you want ValhallaMMO's resource pack hosted for you
+[04:14:15] [Server thread/WARN]: [ValhallaMMO] No valid host for the resource pack configured! You may ignore this warning if you've not set up the resource pack.
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] Database connection failed, attempting SQLite for profile persistence
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] New player_data.db file created!
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] MiniMessage support initialized
+[04:14:15] [Server thread/INFO]: [ValhallaMMO] SQLite connection created! Deleting this file will reset everyone's progress, so back this file up or ignore it in case you want to delete/reset the configs.
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading crafting grid recipes from plugins/ValhallaMMO/recipes/grid_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading smithing recipes from plugins/ValhallaMMO/recipes/smithing_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading immersive recipes from plugins/ValhallaMMO/recipes/immersive_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading cauldron recipes from plugins/ValhallaMMO/recipes/cauldron_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading cooking recipes from plugins/ValhallaMMO/recipes/cooking_recipes.json
+[04:14:21] [Server thread/INFO]: [ValhallaMMO] Loading brewing recipes from plugins/ValhallaMMO/recipes/brewing_recipes_1_20_6+.json
+[04:14:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: valhallammo [1.5.5]
+[04:14:22] [Server thread/INFO]: [worldedit-selection-viewer] Enabling worldedit-selection-viewer v1.5
+[04:14:22] [Server thread/INFO]: [TeaksTweaks] Enabling TeaksTweaks v2.0.10-mc1.21.5
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Updated Plugin Config
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Loaded language file: en.json
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /teakstweaks
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /mechanics
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /packlist
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO]  
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks v2.0.10-mc1.21.5 has started!
+[04:14:23] [Server thread/INFO]: [TeaksTweaks] [INFO]  
+[04:14:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: teakstweaks [2.0.10-mc1.21.5]
+[04:14:24] [Server thread/INFO]: [spark] Starting background profiler...
+[04:14:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[04:14:24] [Server thread/INFO]: Done preparing level "world" (47.741s)
+[04:14:24] [Server thread/INFO]: Running delayed init tasks
+[04:14:24] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:14:24] [Craft Scheduler Thread - 7 - PlaceholderAPI/INFO]: [PlaceholderAPI] Failed to check for updates on spigot.
+[04:14:24] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[04:14:25] [Server thread/INFO]: [UltraSetHome] You are using the latest version of UltraSetHome.
+[04:14:25] [Server thread/INFO]: Done (103.029s)! For help, type "help"
+[04:14:25] [Server thread/INFO]: *************************************************************************************
+[04:14:25] [Server thread/INFO]: This is the first time you're starting this server.
+[04:14:25] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[04:14:25] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[04:14:25] [Server thread/INFO]: *************************************************************************************
+[04:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4713ms or 94 ticks behind
+[04:20:07] [User Authenticator #0/INFO]: UUID of player AltRossell is fba9cb7c-e7b2-3962-93b2-6f53cdaca0c7
+[04:20:12] [Server thread/INFO]: AltRossell joined the game
+[04:20:12] [Server thread/INFO]: AltRossell[/10.147.18.205:58516] logged in with entity id 135 at ([world]-37.5, 71.0, 29.5)
+[04:20:12] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.

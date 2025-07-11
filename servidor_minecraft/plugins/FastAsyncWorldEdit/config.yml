@@ -309,13 +309,13 @@ limits:
     # Max allowed entities (e.g. cows)
     max-entities: 1337
     # Max allowed radius (e.g. for //sphere)
-    max-radius: -1
+    max-radius: 0
     # Max allowed superpickaxe size
-    max-super-pickaxe-size: 5
+    max-super-pickaxe-size: 0
     # Max allowed brush radius
-    max-brush-radius: 100
+    max-brush-radius: 0
     # Max allowed butcher radius
-    max-butcher-radius: -1
+    max-butcher-radius: 0
     # Blockstates include Banner, Beacon, BrewingStand, Chest, CommandBlock, 
     # CreatureSpawner, Dispenser, Dropper, EndGateway, Furnace, Hopper, Jukebox, 
     # NoteBlock, Sign, Skull, Structure
