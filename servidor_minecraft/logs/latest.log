@@ -391,3 +391,13 @@ java.lang.NullPointerException: null
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [18:39:45] [Server thread/INFO]: AltRossell lost connection: Disconnected
 [18:39:45] [Server thread/INFO]: AltRossell left the game
+[18:42:23] [User Authenticator #1/INFO]: UUID of player AltRossell is fba9cb7c-e7b2-3962-93b2-6f53cdaca0c7
+[18:42:26] [Server thread/INFO]: AltRossell joined the game
+[18:42:26] [Server thread/INFO]: AltRossell[/10.147.18.205:49778] logged in with entity id 755 at ([world]-30.860302114546982, 79.0, 137.52565409169992)
+[18:43:20] [Server thread/INFO]: AltRossell was shot by Skeleton
+[18:43:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/gamemode 1 AltRossell<--[HERE]
+[18:43:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode 1 AltRossell
+[18:43:34] [Server thread/INFO]: Set game mode creative for AltRossell.
+[18:45:03] [Server thread/INFO]: AltRossell lost connection: Disconnected
+[18:45:03] [Server thread/INFO]: AltRossell left the game
